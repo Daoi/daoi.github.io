@@ -18,7 +18,7 @@ However, if you don't often add new features, then you might just be adding comp
 
 Its also possible for an application to use a combination of different architectural styles. Gartner came up with 3 based on granularity, `macroservice, miniservice, and microservice` from least agile to most. Macroservices are used to interact with monolithic applications, miniservices are a sort of inbetween of micro and macroservices, with a more relaxed scope and constraints than a miniservice but might handle multiple responsiblities. 
 
-![Microservices vs Monolithic](/images/monolithic-vs-microservices.png)
+![https://medium.com/startlovingyourself/microservices-vs-monolithic-architecture-c8df91f16bb4](/images/monolithic-vs-microservices.png)
 
 
 #### When to use? 
