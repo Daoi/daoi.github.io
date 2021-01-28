@@ -18,6 +18,8 @@ However, if you don't often add new features, then you might just be adding comp
 
 Its also possible for an application to use a combination of different architectural styles. Gartner came up with 3 based on granularity, `macroservice, miniservice, and microservice` from least agile to most. Macroservices are used to interact with monolithic applications, miniservices are a sort of inbetween of micro and macroservices, with a more relaxed scope and constraints than a miniservice but might handle multiple responsiblities. 
 
+![Microservices vs Monolithic](/images/monolithic-vs-microservices.png)
+
 
 #### When to use? 
 Microservices seem to go well with companies that provide services that have large userbases and high numbers of people using the service at once. Microservices allow the company's application to easily scale up at busy hours, perhaps after work or on the weekends, holidays, etc, and scale down when people aren't using the website such as late night. Perhaps they can scale up one region during its late night, but scale up in another region which might be midday. The flexibility provided by MSA could potentially save a ton of money, diverting resources only to where they're needed. These companies also tend to have large competitors meaning the ability to easily update and add new features also becomes important, another benefit provided by MSA. Companies like streaming services (music or tv) and social media are obvious use cases. 
