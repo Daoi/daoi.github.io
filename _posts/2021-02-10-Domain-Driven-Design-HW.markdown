@@ -32,7 +32,7 @@ A way to easily track and view these orders so they can be sent out.
 
 #### System Architecture
 
-![Cat Tshirt Services](/images/CatTshirtServices.png)
+![Cat Tshirt Services](/images/CatTShirtServices.png)
 
 
 Sales members will submit their products and promotional materials through a standarized process to create a product entry that can be displayed on the front end. The Product Catalog service will track initial inventory and update it whenever a purchase goes through on the front end, it will notify the catalog service so it can update its inventory. When the inventory is empty, the product will be removed from the online shop or be marked as sold out. 
