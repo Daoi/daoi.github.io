@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Homework Four: AWS"
-subtitle: Homework Three
+subtitle: Cloud + Microservices
 date:   2021-02-18 12:00:00 -0500
 categories: Microservices Homework
 permalink: /Homework-Four/
@@ -9,27 +9,27 @@ permalink: /Homework-Four/
 
 #### Screenshots of AWS Amplify App
 
-
+### AWS Auth
 ![Amplify Account Creation/Auth](/images/AmplifyLogin.png)
-
+### AWS Auth Email Verification
 ![Amplify Auth Verification email](/images/AmplifyLogin2.png)
-
+### AWS Auth 2fa
 ![Amplify Login 2fa](/images/AmplifyLogin3.png)
-
+### AWS Build Dashboard
 ![Amplify Console Build Status](/images/AmplifyConsole.png)
-
+### AWS Deploy Dashboard
 ![Amplify Console Deploy Status](/images/AmplifyConsole2.png)
-
+### AWS Build Console(In progress of build)  
 ![Amplify Build Console](/images/ModifyRepo.png)
-
+### AWS Building
 ![Amplify Build Console Front end](/images/ModifyRepo2.png)
-
+### AWS Building
 ![Amplify Build Console Back end](/images/ModifyRepo3.png)
-
+### AWS Finished Building
 ![Amplify Build Console Finished](/images/ModifyRepo4.png)
-
+### AWS Finished Deploying
 ![Amplify Deployment Finished](/images/ModifyRepo5.png)
-
+### AWS Finished
 ![Amplify Deployment Result](/images/NotesApp.png)
 
 #### How does the cloud aid microservices?
