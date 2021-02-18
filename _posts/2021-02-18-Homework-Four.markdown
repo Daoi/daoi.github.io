@@ -31,6 +31,9 @@ permalink: /Homework-Four/
 ![Amplify Deployment Finished](/images/ModifyRepo5.png)
 ### AWS Finished
 ![Amplify Deployment Result](/images/NotesApp.png)
+### AWS CloudWatch
+![Amplify Resource Monitoring](/images/CloudWatch.png)
+
 
 #### How does the cloud aid microservices?
 
