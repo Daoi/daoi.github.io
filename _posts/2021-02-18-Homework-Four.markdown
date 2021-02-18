@@ -1,44 +1,42 @@
 ---
 layout: post
-title:  "Homework Three: Domain Driven Design"
+title:  "Homework Four: AWS"
 subtitle: Homework Three
-date:   2021-02-10 18:21:29 -0500
+date:   2021-02-18 12:00:00 -0500
 categories: Microservices Homework
-permalink: /Homework-three/
+permalink: /Homework-Four/
 ---
 
-#### Bussiness Opportunity: Retailer payment processing
-A cat t-shirt clothing store is trying to setup an online shop. They allow customers to submit photos of their cats and then print them on Tshirts and provide them to the owners of the photos as well as selling them
-in their shop. Currently they do this locally but their shop is really popular and they want to expand their bussiness by bringing it online. They need to have a way to submit photos of cats, they need to curate the photos to make sure only the highest quality cat photos are made into Tshirts, and things like photos of spiders aren't made into tshirts. They also need a way to keep track of orders of Tshirts, and how they'll be delievered(Shipping). 
+#### Screenshots of AWS Amplify App
 
 
-![Cat Tshirt Flowchart](/images/BussinessFlowCatTshirts.png)
+![Amplify Account Creation/Auth](/images/AmplifyLogin.png)
 
+![Amplify Auth Verification email](/images/AmplifyLogin2.png)
 
-#### Descritpion
-The process for creating a new product begins when customers submit photos of their beloved cats for review. If a cat is deemed sufficently photogenic, and the photo is high enough quality it is selected by the review team and the customer is notified their cat has been selected. From there, the picture is sent to the design team who will create the final Tshirt design. They will incorporate the picture of the cat into some kind of situation, perhaps in space, or eating pizza, as an egyptian pharaoh, etc. After their design is finished the Tshirt is sent to the printing team who will create the actual products. When the printing team has created the shirts for this product line, they will alert sales and provide them with the final product so promotional/marketing items can be created and the product can be placed on the online store for purchase. After a customer chooses a Tshirt to buy, sales handles the payment processing and distribution will ship the item to the customer with their preferred method. 
+![Amplify Login 2fa](/images/AmplifyLogin3.png)
 
-#### Subteam: Sales
-The sales and distribution team is responsible for processing the payments of purchased orders and putting the products up on the online retail store. They also handle pricing and marketing materials.
+![Amplify Console Build Status](/images/AmplifyConsole.png)
 
-Requirements: 
-An easy process for submitting marketing materials and creating a new product entry that will be displayed on the online store.
+![Amplify Console Deploy Status](/images/AmplifyConsole2.png)
 
-Inventory Management for products.
+![Amplify Build Console](/images/ModifyRepo.png)
 
-A way to easily track and view these orders so they can be sent out.
+![Amplify Build Console Front end](/images/ModifyRepo2.png)
 
+![Amplify Build Console Back end](/images/ModifyRepo3.png)
 
+![Amplify Build Console Finished](/images/ModifyRepo4.png)
 
-#### System Architecture
+![Amplify Deployment Finished](/images/ModifyRepo5.png)
 
-![Cat Tshirt Services](/images/CatTShirtServices.png)
+![Amplify Deployment Result](/images/NotesApp.png)
 
+#### How does the cloud aid microservices?
 
-Sales members will submit their products and promotional materials through a standarized process to create a product entry that can be displayed on the front end. The Product Catalog service will track initial inventory and update it whenever a purchase goes through on the front end, it will notify the catalog service so it can update its inventory. When the inventory is empty, the product will be removed from the online shop or be marked as sold out. 
+Microservices and the cloud go well together because microservices independent/scalable nature can take advantage of benefits offered by the cloud and services like AWS. AWS allows you to automatically spin up resources as needed in regions that are close to where they're needed. For example if your login/auth services are microservices you can host them on AWS and allow amazon's could services to handle scaling up and down your service as its needed. If you tried this with a monolithic app it would be a lot more difficult to scale as instead of just starting up a portion of your function you'd likely need to start up the whole thing, which probably doesn't make sense if the only issue is authentication. Similarly, microservices independent nature makes them likely easier to deploy and host and works well with cloud containers. AWS for example has setups for containers/ec. If you want to update one service you can simply just use code deploy/pipeling to push the update when its ready for product and only affect part of your services. If you need to spin up a new instance of a service containers allow you to do this more quickly compared to full virtual machine.
 
-When a purchase is made the front end also notififes the Order Service, providing the customers shipping information. This information is then formatted for the distribution team who will work on getting the product sent to its new owner via the shipping methods they chose. It also creates a barcode for the order which can be used to track which stage of shipping it is currently in. The order team will scan an item before it goes onto a truck which will notify the Order Service that it can remove that order from its backlog and alert the customer through the stores tracking page that their new cat tshirt is on its way. 
-
+Since Microservices are also have complete control of their data layers and function you can take advantage of the clouds ability to configure each service as needed. For example using different DB types such as NoSQL or PostgreSQL, different load balance configurations or even different server operating systems/configurations. All of this is made easy and provided for you by cloud services like AWS. While some of these benefits can be taken advantage of Monolithic applications, Microservice architecture allows you to fully utilize the benefits of cloud computing. 
 
 
 
