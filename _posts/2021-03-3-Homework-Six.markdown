@@ -11,17 +11,17 @@ permalink: /Homework-Six/
 
 
 ### Retrieve Container Image
-![Retrieve Container Image](/images/docker1.png)
+![Retrieve Container Image](/images/docker1.PNG)
 ### Downloading Container Image
-![Downloading Container Image](/images/docker2.png)
+![Downloading Container Image](/images/docker2.PNG)
 ### Build the image
-![Build the image](/images/docker3.png)
+![Build the image](/images/docker3.PNG)
 ### Building Image
-![Building Image](/images/docker4.png)
+![Building Image](/images/docker4.PNG)
 ### Start container instance based on image
-![Start container instance based on image](/images/docker5.png)
+![Start container instance based on image](/images/docker5.PNG)
 ### Finished  
-![Finished](/images/docker6.png)
+![Finished](/images/docker6.PNG)
 ### Task Manager/Resource Usage
 ![Task Manager/Resource Usage](/images/docker7.png)
 ### Second Docker Process
