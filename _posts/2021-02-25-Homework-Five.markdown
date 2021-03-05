@@ -7,8 +7,10 @@ categories: Microservices Homework
 permalink: /Homework-Five/
 ---
 
-#### Case Study Choice # 2: Cloudfare Workers Microservices
-I'm selecting Cloudfare workers as i've used the service before breifly as part of an application for an internship at Cloudflare and found the tool interesting. While I only used it for a couple of functions to handle some basic web functionality, I think it would be interesting to to investigate what you could do with it on a more complex level. I think it'd be interesting to see how a Microservice could be created from the cloudfare workers platform.
+#### Case Study Choice # 23: Microservice Patterns
+I wanted to choose this case study because patterns are essentially general reusable solutions to problems. This seems like a very useful
+topic for learning the fundamentals in microservices. By becoming familiar with the comman design patterns involved in using microservices I hopefully will gain a good amount of insight of practical implementations of microservices, issues they might run into, and how they can be used in general. As well as how to solve and think about microservices from a design standpoint, and what goes into creating one. 
+
 
 
 
